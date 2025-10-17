@@ -10,7 +10,8 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "next-auth": "latest"
   },
   "devDependencies": {
     "typescript": "^5.5.4",
