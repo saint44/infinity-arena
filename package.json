@@ -11,7 +11,9 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next-auth": "latest"
+    "next-auth": "latest",
+        "@supabase/supabase-js": "latest"
+
   },
   "devDependencies": {
     "typescript": "^5.5.4",
