@@ -37,7 +37,18 @@ const A2B: Plan = {
   ],
 };
 
-const PLANS: Plan[] = [Concierge, PPS, A2B];
+const Honey: Plan = {
+  name: 'Honey Modules',
+  blurb: 'Infinity Nexus SaaS modules for monitoring and automation.',
+  tiers: [
+    { label: 'Honey Health — $19/mo', url: 'https://buy.stripe.com/8x26oI5Rff5E2mwdK7cWj0M1' },
+    { label: 'Honey Auto-Heal — $29/mo', url: 'https://buy.stripe.com/28EdRa0wV0aK3qAgWjcWj0M2' },
+    { label: 'Honey Forge — $49/mo', url: 'https://buy.stripe.com/eVq00k2F34r02mw5dBcWj0M3' },
+    { label: 'Honey Runner — $99/mo', url: 'https://buy.stripe.com/fZu00k5Rf9Lkf9i9tRcWj0M0' },
+  ],
+};
+
+const PLANS: Plan[] = [Concierge, PPS, A2B, Honey];
 
 export default function Pricing() {
   const [showUrls, setShowUrls] = React.useState(false);
@@ -89,4 +100,3 @@ export default function Pricing() {
     </main>
   );
 }
-
